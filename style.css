@@ -149,3 +149,55 @@ body {
     transition: all .5s;
 
 }
+
+@media (max-width: 1200px){
+     .message h2{
+        font-size: 18px;
+     }
+
+     .formulario input{
+        margin-bottom: 20px;
+     }
+     .formulario input[type="button"]{
+        margin-top: 20px;
+     }
+}
+
+@media (max-width: 900px){
+    h2.create-account{
+        font-size: 20px;
+    }
+
+    div.border-icon{
+        height: 15px;
+        width: 15px;
+        padding: 20px;
+    }
+
+    div.border-icon i{
+        font-size: 20px;
+    }
+
+    .formulario input[type="button"]{
+        margin-top: 40px;
+     }
+}
+
+@media (max-width: 600px){
+
+    .container-form{
+        height: 100%;
+        display: block;
+    }
+
+    .formulario{
+        width: 90%;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    div.message{
+        margin: auto;
+    }
+
+}
